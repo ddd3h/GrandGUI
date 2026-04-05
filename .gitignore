@@ -1,0 +1,62 @@
+# Python
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.lcov
+
+# Node.js
+frontend/node_modules/
+node_modules/
+
+# Vite / TypeScript build
+frontend/dist/
+*.tsbuildinfo
+frontend/.vite/
+
+# Data files (SQLite DB and map tiles are user-generated)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/maps/
+# Keep the data directory itself
+!data/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V8
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
